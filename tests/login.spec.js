@@ -29,12 +29,8 @@ test.describe("login", () => {
 
     await page.getByRole("button", { type: "submit" }).click();
 
-    await page.waitForFunction(() => {
-      const messageContainer = document.querySelector("#message-container");
-      return (
-        messageContainer &&
-        messageContainer.textContent.includes("Invalid email or password")
-      );
-    });
+    await expect(page.locator("#message-container")).toContainText(
+      "Invalid email or password",
+    );
   });
 });
