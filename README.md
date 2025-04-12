@@ -82,8 +82,8 @@ npm run test:e2e
 Be sure to have a .env file with the required environment variables. Example:
 
 ```bash
-API_KEY=your_api_key_here
-DB_URL=your_database_url_here
+TEST_USER_EMAIL=your_test_user_email_here
+TEST_USER_PASSWORD=your_test_user_password_here
 ```
 
 The .env file is ignored in version control. Use .env.example as reference.
