@@ -30,7 +30,7 @@ To get started with this project, follow these steps:
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/workflow-repo-ca.git
+git clone https://github.com/Andy19955/workflow-repo-ca.git
 ```
 
 2. Install dependencies:
